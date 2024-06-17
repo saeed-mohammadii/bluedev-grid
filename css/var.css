@@ -1,0 +1,67 @@
+@font-face {
+    src: url(../fonts/vazir/Vazir-Medium.ttf);
+    src: url(../fonts/vazir/Vazir-Medium.woff);
+    src: url(../fonts/vazir/Vazir-Medium.woff2);
+    font-family: vazir;
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --color-primary1: #2f3e46;
+    --color-primary2: #354f52;
+    --color-primary3: #52796f;
+    --color-primary4: #84a98c;
+    --color-primary5: #cad2c5;
+    --color-gray1:#102a42;
+    --color-gray2:#617d98;
+    --color-gray3:rgb(241,245,248);
+    --color-white:#fff;
+    --color-black:#000;
+    --font-face:vazir;
+    --transition:all 0.4s ease;
+    --light-shadow:0 5px 15px rgba(0,0,0,0.1);
+    --dark-shadow:0 5px 15px rgba(0,0,0,0.2);
+    --max-width:1170px;
+}
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-face);
+    background-color: var(--color-white);
+    color: var(--color-black);
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h1,h2,h3,h4{
+    line-height: 1.25rem;
+    margin-bottom: 1.3rem;
+} 
+ h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 0.875rem;
+}
+p{
+    margin-bottom: 1.25rem;
+    color: var(--color-gray2);
+}
